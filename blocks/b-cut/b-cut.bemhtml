@@ -1,0 +1,21 @@
+block b-cut {
+
+    js: true
+
+    content: [
+        {
+            block: 'b-link',
+            mix: [ { block: 'b-cut', elem: 'opener' }],
+            mods: { pseudo: 'yes' },
+            content: this.ctx.opener
+        },
+        {
+            elem: 'content',
+            content: [
+                { elem: 'close' },
+                this.ctx.content
+            ]
+        }
+    ]
+
+}
