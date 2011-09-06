@@ -1,0 +1,4 @@
+.b-popupa__close
+{
+    -filter: chroma(color=white);
+}

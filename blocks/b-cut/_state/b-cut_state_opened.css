@@ -1,0 +1,9 @@
+.b-cut_state_opened .b-cut__content
+{
+    display: block;
+}
+
+.b-cut_state_opened .b-cut__opener
+{
+    display: none;
+}
